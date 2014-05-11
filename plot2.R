@@ -1,5 +1,6 @@
 source("./ExData_Plotting1/readdata.R")
 par(pin=c(4.5,4.5))
+par(bg="transparent")
 png(filename="./ExData_Plotting1/figure/plot2.png")
 plot(data$Global_active_power~data$DateTime,type="l",ylab="Global Active Power (kilowatts)",xlab="")
 dev.off()
