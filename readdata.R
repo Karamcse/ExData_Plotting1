@@ -8,3 +8,4 @@ data<-read.table("./household_power_consumption.txt",sep=";",skip=(skipline-1),
 
 data$Date<-as.Date(data$Date,"%d/%m/%Y")
 data$DateTime<-strptime(paste(data$Date,data$Time),"%Y-%m-%d %H:%M:%S")
+data$DateTime<-as.POSIXct(data$DateTime)
