@@ -4,7 +4,7 @@ source("./readdata.R")
 par(mar=c(2,2,1,1))
 par(bg="transparent")
 par(pin=c(6.4,6.4))
-png(filename="./figure/plot4.png")
+png(filename="./figure/Plot4.png")
 par(mfrow=c(2,2))
 
 plot(data$Global_active_power~data$DateTime,type="l",ylab="Global Active Power (kilowatts)",xlab="")
