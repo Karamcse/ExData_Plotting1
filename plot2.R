@@ -1,4 +1,4 @@
-source("./ExData_Plotting1/readdata.R")
+source("./readdata.R")
 
 par(pin=c(4.5,4.5))
 ## Create a Time Series on Global Active Power
