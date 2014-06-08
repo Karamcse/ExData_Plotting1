@@ -1,4 +1,4 @@
-source("./ExData_Plotting1/readdata.R")
+source("./readdata.R")
 ## Create Time Series On Energy Sub Metering
 par(mar=c(2,2,1,1))
 par(pin=c(6.4,6.4))
