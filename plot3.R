@@ -3,7 +3,7 @@ source("./readdata.R")
 par(mar=c(2,2,1,1))
 par(pin=c(6.4,6.4))
 par(bg="transparent")
-png(filename="./figure/plot3.png")
+png(filename="./figure/Plot3.png")
 
 plot(data$Sub_metering_1~data$DateTime,type="l",ylab="Energy sub metering",xlab="")
 with(data,points(data$Sub_metering_2~data$DateTime,type="l",col="red"))
