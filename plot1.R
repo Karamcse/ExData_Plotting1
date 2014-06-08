@@ -1,4 +1,4 @@
-source("./ExData_Plotting1/readdata.R")
+source("./readdata.R")
 ##Construct the plot and save it to a PNG file with a width of 480 pixels and a height of 480 pixels.
 
 par(pin=c(6.4,6.4))
